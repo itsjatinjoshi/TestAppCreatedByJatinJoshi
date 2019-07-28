@@ -79,6 +79,10 @@ public class ContactList extends AppCompatActivity {
             public void handleFault(BackendlessFault fault) {
                 Toast.makeText(ContactList.this, "Error: " + fault.getMessage(), Toast.LENGTH_SHORT).show();
                 showProgress(false);
+
+
+
+                
             }
         });
 
