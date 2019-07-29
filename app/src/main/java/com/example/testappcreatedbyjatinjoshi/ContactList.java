@@ -82,7 +82,7 @@ public class ContactList extends AppCompatActivity {
 
 
 
-                
+
             }
         });
 

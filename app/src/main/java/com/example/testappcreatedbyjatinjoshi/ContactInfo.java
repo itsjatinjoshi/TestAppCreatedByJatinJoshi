@@ -148,6 +148,7 @@ public class ContactInfo extends AppCompatActivity {
 
                                     }
 
+
                                     @Override
                                     public void handleFault(BackendlessFault fault) {
 
@@ -168,6 +169,7 @@ public class ContactInfo extends AppCompatActivity {
                         Toast.makeText(ContactInfo.this, "Not Deleted", Toast.LENGTH_LONG).show();
                     }
                 });
+                dialog.show();
 
             }
         });
